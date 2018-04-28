@@ -1,0 +1,147 @@
+/***** Helper **** */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.flex-col-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start; }
+
+.flex-col-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center; }
+
+/***** NAV AREA **** */
+.email-link {
+  padding: 5px; }
+  .email-link a {
+    padding: 5px; }
+
+.call-btn {
+  padding-right: 10px; }
+
+.nav-wrapper {
+  min-height: 50px; }
+
+.k-logo {
+  height: 50px;
+  margin: 35px 0px 0px 20px; }
+
+@media only screen and (max-width: 420px) {
+  .k-logo {
+    height: auto;
+    width: 80%; } }
+.hero {
+  background-image: linear-gradient(rgba(13, 71, 161, 0.7), rgba(13, 71, 161, 0.7)), url(../img/hero.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media only screen and (max-width: 580px) {
+  .hero {
+    height: 40vh; } }
+.hero-text {
+  z-index: 9999; }
+
+/**** Baloon Area *** */
+.balloon-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.icon-ballon {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.balloon-section {
+  padding-top: 20px; }
+
+/****** Bio Area **** */
+.b-container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%; }
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%; } }
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%; } }
+.bio-image {
+  background-image: url(../img/scalehammer.jpg);
+  background-position: top center;
+  background-size: cover; }
+
+.img-wrap {
+  background-image: url(../img/headshot.jpg);
+  background-position: top center;
+  background-size: cover;
+  min-height: 280px;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px; }
+
+.card-title {
+  height: 100%;
+  width: 100%; }
+
+.showme {
+  display: none; }
+
+/** Fact Card ** */
+.fact-card {
+  padding: 10px 30px 30px; }
+
+.top-title {
+  align-self: flex-start; }
+
+.flex-start p {
+  align-self: flex-start; }
+  .flex-start p i {
+    margin-top: 0.4em; }
+
+/*** Slider area ** */
+.img-container {
+  widtH: 100%;
+  height: 100%; }
+
+.courthouse-img {
+  max-width: 100%; }
+
+/*** contact-area ** */
+#contact-logo {
+  width: 100px;
+  margin-top: 50px; }
+
+/*# sourceMappingURL=styles.css.map */
