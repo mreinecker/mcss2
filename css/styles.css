@@ -1,53 +1,15 @@
-/***** Helper **** */
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.flex-end {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center; }
-
-.flex-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.flex-col-end {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start; }
-
-.flex-col-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; }
-
-.flex-start {
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: center; }
-
 /***** NAV AREA **** */
-.email-link {
-  padding: 5px; }
-  .email-link a {
-    padding: 5px; }
-
-.call-btn {
-  padding-right: 10px; }
+.contact-btns {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .contact-btns .first {
+    margin-bottom: 5px; }
 
 .nav-wrapper {
   min-height: 50px; }
 
 .k-logo {
-  height: 50px;
-  margin: 35px 0px 0px 20px; }
+  height: 50px; }
 
 @media only screen and (max-width: 420px) {
   .k-logo {
@@ -112,24 +74,9 @@
   align-items: flex-end;
   padding: 10px; }
 
-.card-title {
-  height: 100%;
-  width: 100%; }
-
-.showme {
-  display: none; }
-
-/** Fact Card ** */
-.fact-card {
-  padding: 10px 30px 30px; }
-
-.top-title {
-  align-self: flex-start; }
-
-.flex-start p {
-  align-self: flex-start; }
-  .flex-start p i {
-    margin-top: 0.4em; }
+.card-p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
 
 /*** Slider area ** */
 .img-container {
@@ -143,5 +90,61 @@
 #contact-logo {
   width: 100px;
   margin-top: 50px; }
+
+/** practice areas page */
+/** tab section */
+.tabs-section {
+  background-image: url("../img/books.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top left; }
+
+/** about page */
+.about-section {
+  background-image: url(../img/pillars.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top left;
+  height: 60vh; }
+
+@media only screen and (min-width: 660px) {
+  .profile-pic {
+    margin-top: 1.5em;
+    margin-left: 0; } }
+/** contact page */
+.contact-section {
+  background-image: url(../img/scale.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top left;
+  height: 60vh; }
+
+.contact-img {
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 10%; }
+
+@media only screen and (max-width: 1110px) {
+  .contact-img {
+    transform: translateX(-10px); } }
+@media only screen and (max-width: 1050px) {
+  .contact-img {
+    transform: translateX(-20px); } }
+@media only screen and (max-width: 948px) {
+  .contact-img {
+    height: 125px; } }
+@media only screen and (max-width: 785px) {
+  .contact-img {
+    height: 100px;
+    margin-top: 15%;
+    transform: translateX(0px); } }
+@media only screen and (max-width: 575px) {
+  .contact-img {
+    margin-top: 25%; } }
+@media only screen and (max-width: 420px) {
+  .contact-img {
+    margin-left: 0;
+    margin-top: 40%; } }
 
 /*# sourceMappingURL=styles.css.map */
