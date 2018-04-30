@@ -17,14 +17,12 @@
 .hero {
   background-image: linear-gradient(rgba(13, 71, 161, 0.7), rgba(13, 71, 161, 0.7)), url(../img/hero.jpg);
   background-position: top center;
-  background-size: cover;
-  height: 50vh; }
+  background-size: cover; }
 
-@media only screen and (max-width: 580px) {
-  .hero {
-    height: 40vh; } }
 .hero-text {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-bottom: 10%; }
 
 /**** Baloon Area *** */
 .balloon-wrapper {
