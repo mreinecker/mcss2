@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    <Marc Reinecker> -- <Web Designer and Developer> -- <@tw00ps>
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
+    materialize.css
     Apache Server Configs, jQuery, Modernizr, Normalize.css
+
+# IDE
+
+    WebStorm
