@@ -13,7 +13,22 @@
 
 @media only screen and (max-width: 1200px) {
   .k-logo {
+    height: 60px; } }
+@media only screen and (max-width: 1080px) {
+  .k-logo {
+    height: 55px; } }
+@media only screen and (max-width: 440px) {
+  .k-logo {
     height: 50px; } }
+@media only screen and (max-width: 400px) {
+  .k-logo {
+    height: 45px; } }
+@media only screen and (max-width: 375px) {
+  .k-logo {
+    height: 40px; } }
+@media only screen and (max-width: 335px) {
+  .k-logo {
+    height: 35px; } }
 .hero {
   background-image: linear-gradient(rgba(13, 71, 161, 0.7), rgba(13, 71, 161, 0.7)), url(../img/hero.jpg);
   background-position: top center;
