@@ -1,0 +1,27 @@
+{
+  "name": "kovacs2",
+  "version": "1.0.0",
+  "description": "Site for Law Firm",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreinecker/mcss2.git"
+  },
+  "author": "Marc Reinecker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mreinecker/mcss2/issues"
+  },
+  "homepage": "https://github.com/mreinecker/mcss2#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1"
+  }
+}
